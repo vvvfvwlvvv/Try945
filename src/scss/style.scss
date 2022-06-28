@@ -1,0 +1,58 @@
+@import "src/scss/header.scss";
+@import "src/scss/button.scss";
+@import "src/scss/logo.scss";
+@import "src/scss/blog.scss";
+@import "src/scss/title.scss";
+@import "src/scss/menu.scss";
+@import "src/scss/paper.scss";
+@import "src/scss/swiper.scss";
+@import "src/scss/repair.scss";
+@import "src/scss/caption.scss";
+@import "src/scss/card.scss";
+@import "src/scss/list-card.scss";
+@import "src/scss/page.scss";
+@import "src/scss/burger-menu.scss";
+@import "src/scss/burger-header.scss";
+@import "src/scss/burger.scss";
+@import "src/scss/burger-footer.scss";
+@import "src/scss/feedback.scss";
+@import "src/scss/burger-about.scss";
+@import "src/scss/languages.scss";
+
+
+@font-face {
+   font-family: "TT Lakes";
+   src: url("../fonts/TTLakes-Regular.eot");
+   src: local("../fonts/TT Lakes Regular"), local("../fonts/TTLakes-Regular"),
+       url("../fonts/TTLakes-Regular.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/TTLakes-Regular.woff") format("woff"), url("../fonts/TTLakes-Regular.ttf") format("truetype");
+   font-weight: normal;
+   font-style: normal;
+ }
+
+ @font-face {
+  font-family: "TT Lakes";
+  src: url("../fonts/TTLakes-Bold.eot");
+  src: local("TT Lakes Bold"), local("TTLakes-Bold"), url("../fonts/TTLakes-Bold.eot?#iefix") format("embedded-opentype"),
+      url("../fonts/TTLakes-Bold.woff") format("woff"), url("../fonts/TTLakes-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+$text: #000000;
+$bgColor: #fff;
+
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: $text;
+  list-style-type: none;
+  font-family: "TT Lakes";
+}
+
+body{
+  background-color: beige;
+}
+
+

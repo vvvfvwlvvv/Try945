@@ -1,0 +1,15 @@
+.burger{
+    &__menu{
+        &__item{
+            padding-left: 24px;
+            margin-bottom: 32px;
+            &--active{
+                border-left: 4px solid #41F6D7;
+                color: #7E7E82;
+            }
+        }
+        &__item:last-of-type{
+            margin-bottom: 0;
+        }
+    }
+}

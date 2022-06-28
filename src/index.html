@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+</head>
+<body>
+    <div class="page">
+        <div class="burger-menu">
+            <header class="burger-header">
+                <button class="button burger-header__menu--cross"></button>
+                <div class="logo burger-header__logo"></div>
+                <button class="button burger-header__menu--search"></button>
+            </header>
+    
+            <section class="burger">
+                <ul class="burger__menu">
+                    <li class="burger__menu__item burger__menu__item--active"><a href="#">Ремонт техники</a></li>
+                    <li class="burger__menu__item"><a href="#">Услуги и сервисы</a></li>
+                    <li class="burger__menu__item"><a href="#">Корпоративные клиенты</a></li>
+                    <li class="burger__menu__item"><a href="#">Продавцам техники</a></li>
+                    <li class="burger__menu__item"><a href="#">Партнерам</a></li>
+                    <li class="burger__menu__item"><a href="#">Производителям</a></li>
+                    <li class="burger__menu__item"><a href="#">Наши сервисные центры</a></li>
+                    <li class="burger__menu__item"><a href="#">Контакты</a></li>
+                </ul>
+            </section>
+    
+            <footer class="burger-footer">
+                <div class="feedback burger-footer__feedback">
+                    <button class="button feedback__menu--contact"></button>
+                    <button class="button feedback__menu--message"></button>
+                    <button class="button feedback__menu--contact"></button>
+                </div>
+                <address class="burger-about burger-footer__about">
+                    <a class="burger-about__mail" href="#">mail@cps.com</a>
+                    <a class="burger-about__phone" href="#">8 800 890 8900</a>
+                </address>
+                <div class="languages burger-footer__languages">
+                    <button class="languages__language languages__language--active">RU</button>
+                    <button class="languages__language">EN</button>
+                    <button class="languages__language">CH</button>
+                </div>
+            </footer>
+        </div>
+    
+        <div class="basepage">
+            <header class="header">
+                <button type="button" class="button header__button header__button--menu"></button>
+                <div class="logo header__logo"></div>
+    
+                <button type="button" class="button header__button header__button--phone"></button>
+                <button type="button" class="button header__button header__button--message"></button>
+                <button type="button" class="button header__button header__button--contact"></button>
+    
+                <button type="button" class="button header__button header__button--setting"></button>
+                <button type="button" class="button header__button header__button--search"></button>
+            </header>
+    
+            <section class="blog">
+                <div class="title blog__title">
+                    <h1>Услуги и сервисы</h1>
+                    <a href="#" class="title__link title__link--order">Оставить заявку</a>
+                    <button type="button" class="button title__button title__button--setting"></button>
+                    <a href="#" class="title__link title__link--status">Статус ремонта</a>
+                    <button type="button" class="button title__button title__button--search"></button>
+                </div>
+                <nav class="menu blog__menu">
+                    <ul class="menu__wrapper">
+                        <li class="menu__item menu__item--active"><a href="#">Ремонтируемые бренды</a></li>
+                        <li class="menu__item"><a href="#">Ремонтируемые устройства</a></li>
+                        <li class="menu__item"><a href="#">Цены на услуги</a></li>
+                        <li class="menu__item"><a href="#">Адреса сервисных центров</a></li>
+                        <li class="menu__item"><a href="#">Специальные цены</a></li>
+                        <li class="menu__item"><a href="#">Отзывы</a></li>
+                    </ul>
+                </nav>
+                <section class="paper">
+                    <div class="paper__article">
+                        <p class="paper__text paper__text--first">Мы являемся авторизованным сервисным центром по ремонту
+                            техники Dell. Только у
+                            нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.</p>
+                        <br>
+                        <p class="paper__text paper__text--second">Мы успешно работаем с 1992 года и заслужили репутацию
+                            надежного партнера, что
+                            подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по
+                            рекомендациям и, в свою очередь, советуют нас родным и близким.</p>
+                    </div>
+                    <button class="paper__readmore" href="#"><img src="./img/ReadMore.svg" alt="Картина читать далее">
+                        Читать
+                        далее</button>
+                    <div class="paper__image">
+                        <img src="./img/PictArt.jpg" alt="Логотип компании">
+                    </div>
+                </section>
+            </section>
+    
+            <section class="repair">
+                <div class="caption">
+                    <p class="caption__technical">РЕМОНТ ТЕХНИКИ РАЗЛИЧНЫХ БРЕНДОВ</p>
+                </div>
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img class="swiper-slide__image" src="./img/Lenovo.svg">
+                            <button class="swiper-slide__button"></button>
+                        </div>
+                    
+                        <div class="swiper-slide">
+                            <img class="swiper-slide__image" src="./img/Samsung.svg">
+                            <button class="swiper-slide__button"></button>
+                        </div>
+                    
+                        <div class="swiper-slide">
+                            <img class="swiper-slide__image" src="./img/appple.svg">
+                            <button class="swiper-slide__button"></button>
+                        </div>
+                    
+                    
+                        <div class="swiper-slide">
+                            <img class="swiper-slide__image" src="./img/Lenovo.svg">
+                            <button class="swiper-slide__button"></button>
+                        </div>
+            
+                        <div class="swiper-slide">
+                            <img class="swiper-slide__image" src="./img/Lenovo.svg">
+                            <button class="swiper-slide__button"></button>
+                        </div>
+                    
+                        <div class="swiper-slide">
+                            <img class="swiper-slide__image" src="./img/Samsung.svg">
+                            <button class="swiper-slide__button"></button>
+                        </div>
+                    
+                        <div class="swiper-slide">
+                            <img class="swiper-slide__image" src="./img/appple.svg">
+                            <button class="swiper-slide__button"></button>
+                        </div>
+                    
+                    
+                        <div class="swiper-slide">
+                            <img class="swiper-slide__image" src="./img/Lenovo.svg">
+                            <button class="swiper-slide__button"></button>
+                        </div>
+            
+                        <div class="swiper-slide">
+                            <img class="swiper-slide__image" src="./img/Lenovo.svg">
+                            <button class="swiper-slide__button"></button>
+                        </div>
+                    
+                        <div class="swiper-slide">
+                            <img class="swiper-slide__image" src="./img/Samsung.svg">
+                            <button class="swiper-slide__button"></button>
+                        </div>
+                    
+                        <div class="swiper-slide">
+                            <img class="swiper-slide__image" src="./img/appple.svg">
+                            <button class="swiper-slide__button"></button>
+                        </div>
+                    </div>
+                    
+                    <div class="swiper-pagination"></div>
+                </div>
+                <button class="view repair__button" href="#"><img class="view__image" src="./img/ReadMore.svg" alt="Картина читать далее">
+                    <span class="view__content">Показать
+                    все</span></button>
+            </section>
+        </div>
+    </div>
+<script src="js/index.js"></script>
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+</body>
+</html>

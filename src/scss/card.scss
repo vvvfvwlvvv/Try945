@@ -1,0 +1,22 @@
+.card{
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 240px;
+    height: 72px;
+    border-radius: 6px;
+    border: 1px solid #EAEAEA;
+}
+
+@media (min-width: 768px){
+    .card{
+        width: 220px;
+    }
+}
+
+@media (min-width: 1120px){
+    .card{
+        width: 240px;
+    }
+}

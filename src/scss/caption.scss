@@ -1,0 +1,43 @@
+.caption{
+    background: linear-gradient(to right, #F8F8F8, #FFFFFF);
+    width: 320px;
+    &__technical{
+    color: #7E7E82;
+    width: 288px;
+    height: 48px;
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: 16px;
+    margin: 0 16px 16px 16px;
+    }
+}
+
+
+
+@media(min-width: 768px) {
+    .caption{
+        width: 768px;
+        &__technical{
+        width: 360px;
+        height: 24px;
+        font-size: 16px;
+        line-height: 24px;
+        padding-top: 16px;
+        margin: 0 16px 16px 24px;
+        }
+    }
+}
+
+@media(min-width: 1120px) {
+    .caption{
+        width: 1120px;
+        &__technical{
+            width: 360px;
+            height: 24px;
+            font-size: 16px;
+            line-height: 24px;
+            padding-top: 16px;
+            margin: 0 16px 16px 32px;
+        }
+    }
+}

@@ -1,0 +1,21 @@
+.list-card{
+    width: 768px;
+    overflow: hidden;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    &__item{
+        margin: 16px;
+    }
+}
+@media(max-width: 767px)
+{
+    .list-card{
+        display: none;
+    }
+}
+@media(min-width: 1120px){
+    .list-card{
+        width: 1120px;
+    }
+}

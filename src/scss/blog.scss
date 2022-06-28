@@ -1,0 +1,42 @@
+.blog {
+    background-color: #f8f8f8;
+        width: 320px;
+        &__title {
+            padding-top: 24px;
+            margin-left: 35px;
+        }
+    
+        &__menu {
+            margin: 24px 0;
+        }
+    }
+    
+    @media (max-width: 767px) {
+        .blog {
+            width: 320px;
+            margin: auto;
+    
+            &__title {
+                margin-left: 16px;
+            }
+        }
+    }
+    
+    @media (min-width: 768px) {
+        .blog {
+            width: 768px;
+            margin: auto;
+    
+            &__title {
+                margin-left: 24px;
+            }
+        }
+    }
+    
+    @media (min-width: 1120px) {
+        .blog {
+            width: 1120px;
+            height: 535px;
+            margin: auto;
+        }
+    }

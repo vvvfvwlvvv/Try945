@@ -1,0 +1,14 @@
+.burger-header{
+    display: flex;
+    &__menu--cross{
+        background-image: url("../img/cross.svg");
+        margin: 24px 17px 57px 24px;
+    }
+    &__logo{
+        margin: 19px 0 0 0;
+    }
+    &__menu--search{
+        background-image: url("../img/search.svg");
+        margin: 24px 24px 57px 78px;
+    }
+}

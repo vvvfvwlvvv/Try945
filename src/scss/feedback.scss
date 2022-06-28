@@ -1,0 +1,17 @@
+.feedback{
+    display: flex;
+    &__menu{
+        &--contact{
+            background-image: url("../img/phone.svg");
+            margin: 180px 16px 10px 0;
+        }
+        &--message{
+            background-image: url("../img/message.svg");
+            margin: 180px 0 10px 16px;
+        }
+        &--contact{
+            background-image: url("../img/contact.svg");
+            margin: 180px 0 10px 16px;
+        }
+    }
+}

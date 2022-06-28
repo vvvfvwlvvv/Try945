@@ -1,0 +1,124 @@
+.header {
+    width: 320px;
+    background-color: white;
+    display: flex;
+
+    &__button {
+        margin: 24px 16px;
+
+        &--menu {
+            background-image: url("../img/Burger.svg");
+        }
+
+        &--phone {
+            background-image: url("../img/phone.svg");
+        }
+
+        &--message {
+            background-image: url("../img/message.svg");
+        }
+
+        &--contact {
+            background-image: url("../img/Contact.svg");
+        }
+
+        &--setting {
+            margin-right: 0;
+            margin-left: 39px;
+            background-image: url("../img/Setting.svg");
+        }
+
+        &--search {
+            background-image: url("../img/DoSearch.svg");
+        }
+    }
+
+    &__logo {
+        margin-top: 19px;
+        width: 97px;
+
+        &::after {
+            position: absolute;
+            content: " ";
+            margin-left: 113px;
+            margin-top: 10px;
+            width: 2px;
+            height: 32px;
+            border-radius: 1px;
+            background-color: #eaeaea;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .header{
+        margin: auto;
+    }
+    .header__button--phone {
+        display: none;
+    }
+
+    .header__button--message {
+        display: none;
+    }
+
+    .header__button--contact {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .header {
+        margin: auto;
+        width: 768px;
+
+        &__logo {
+            margin-top: 19px;
+            margin-left: 30px;
+            width: 97px;
+
+            &::after {
+                position: absolute;
+                content: " ";
+                margin-left: -24px;
+                margin-top: 10px;
+            }
+        }
+
+        &__button {
+            &--phone {
+                display: block;
+                margin-left: 250px;
+                margin-right: 0px;
+            }
+
+            &--message {
+                display: block;
+                margin-left: 16px;
+                margin-right: 0px;
+            }
+
+            &--contact {
+                display: block;
+                margin-left: 16px;
+
+                &::after {
+                    position: absolute;
+                    content: " ";
+                    margin-left: 47px;
+                    margin-top: -15px;
+                    width: 2px;
+                    height: 32px;
+                    border-radius: 1px;
+                    background-color: #eaeaea;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1120px) {
+    .header {
+        display: none;
+    }
+}

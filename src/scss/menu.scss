@@ -1,0 +1,26 @@
+.menu {
+	overflow-x: scroll;
+	&__wrapper {
+		display: flex;
+		width: 1200px;
+	}
+	&__item {
+		padding: 8px 9px;
+		margin-left: 16px;
+		&--active {
+			border: 2px solid #b8ffec;
+			border-radius: 6px;
+		}
+	}
+}
+
+@media (min-width: 1120px) {
+    .menu {
+        overflow-x: hidden;
+        &__wrapper {
+            display: flex;
+            width: 1120px;
+            flex-wrap: wrap;
+        }
+    }
+}

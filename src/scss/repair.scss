@@ -1,0 +1,50 @@
+.repair {
+    background-color: #F8F8F8;
+    width: 320px;
+    height: 300px;
+    &__button{
+        margin-top: 24px;
+        margin-left: 32px;
+    }
+}
+
+.view{
+    border: none;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    color: #1B1C21;
+    &__image{
+        padding-right: 16px;
+    }
+}
+
+@media(max-width: 767px) {
+    .repair {
+        width: 320px;
+        margin: auto;
+    }
+    .view{
+        display: none;
+    }
+}
+
+@media(min-width: 768px) {
+    .repair {
+        width: 768px;
+        margin: auto;
+    }
+}
+
+@media(min-width: 1120px) {
+    .repair {
+        width: 1120px;
+        margin: auto;
+        &__button{
+            margin-top: 24px;
+            margin-left: 39px;
+        }
+    }
+}
